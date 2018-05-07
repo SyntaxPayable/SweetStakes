@@ -211,10 +211,10 @@ Sign up here.</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYn-Fb-iWW">
-                                        <rect key="frame" x="74.666666666666657" y="35" width="265.33333333333337" height="84"/>
+                                        <rect key="frame" x="116.66666666666667" y="35" width="181.66666666666663" height="84"/>
                                         <attributedString key="attributedText">
                                             <fragment>
-                                                <string key="content">A little bit about
+                                                <string key="content">A bit about
  yourself</string>
                                                 <attributes>
                                                     <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -273,16 +273,17 @@ Sign up here.</string>
                     </view>
                     <connections>
                         <segue destination="kIb-1G-BW6" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="FKC-pV-cKJ"/>
+                        <segue destination="Mdz-cY-xdh" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="pcv-Wr-YCU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xiV-p7-nQR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-965" y="-73"/>
         </scene>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="zNY-Hv-rut">
             <objects>
-                <viewController id="Mdz-cY-xdh" sceneMemberID="viewController">
+                <viewController id="Mdz-cY-xdh" customClass="MainVC" customModule="sweet_stakes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6dr-UX-LyR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
