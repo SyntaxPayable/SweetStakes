@@ -15,6 +15,9 @@
 		703C4F7320294959007DE42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703C4F7220294959007DE42D /* Assets.xcassets */; };
 		703C4F7620294959007DE42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703C4F7420294959007DE42D /* LaunchScreen.storyboard */; };
 		703C4F812029495A007DE42D /* sweet_stakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C4F802029495A007DE42D /* sweet_stakesTests.swift */; };
+		706FDC6020A4EFE700A0F44F /* BorderedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */; };
+		706FDC6220A4F00500A0F44F /* TransparentBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */; };
+		706FDC6620A4F1CA00A0F44F /* AddLaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */; };
 		70739CD220379D1B00F7331D /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739CD120379D1B00F7331D /* SignupVC.swift */; };
 		70739CD420379EE300F7331D /* CottonCandyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739CD320379EE300F7331D /* CottonCandyCell.swift */; };
 		7076127B203519E000C0595B /* PinkTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076127A203519E000C0595B /* PinkTextField.swift */; };
@@ -47,6 +50,9 @@
 		703C4F7C20294959007DE42D /* sweet-stakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sweet-stakesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		703C4F802029495A007DE42D /* sweet_stakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_stakesTests.swift; sourceTree = "<group>"; };
 		703C4F822029495A007DE42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedUIView.swift; sourceTree = "<group>"; };
+		706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBorderedButton.swift; sourceTree = "<group>"; };
+		706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLaterVC.swift; sourceTree = "<group>"; };
 		70739CD120379D1B00F7331D /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		70739CD320379EE300F7331D /* CottonCandyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CottonCandyCell.swift; sourceTree = "<group>"; };
 		7076127A203519E000C0595B /* PinkTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkTextField.swift; sourceTree = "<group>"; };
@@ -134,6 +140,8 @@
 				7020909E20295BA70082308E /* CustomUIButton.swift */,
 				7076127A203519E000C0595B /* PinkTextField.swift */,
 				70739CD320379EE300F7331D /* CottonCandyCell.swift */,
+				706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */,
+				706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 				70B35DF42033F19C00D90789 /* MenuVC.swift */,
 				708331B02034E87B007B040B /* MainVC.swift */,
 				70739CD120379D1B00F7331D /* SignupVC.swift */,
+				706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,13 +291,16 @@
 			files = (
 				70739CD420379EE300F7331D /* CottonCandyCell.swift in Sources */,
 				7020909F20295BA70082308E /* CustomUIButton.swift in Sources */,
+				706FDC6620A4F1CA00A0F44F /* AddLaterVC.swift in Sources */,
 				7076127B203519E000C0595B /* PinkTextField.swift in Sources */,
 				708331B12034E87B007B040B /* MainVC.swift in Sources */,
 				70739CD220379D1B00F7331D /* SignupVC.swift in Sources */,
 				70B35DF52033F19C00D90789 /* MenuVC.swift in Sources */,
 				70B35DF62034E61D00D90789 /* SWRevealViewController.m in Sources */,
+				706FDC6220A4F00500A0F44F /* TransparentBorderedButton.swift in Sources */,
 				708331B42034E8E3007B040B /* Constants.swift in Sources */,
 				703C4F6E20294959007DE42D /* LoginVC.swift in Sources */,
+				706FDC6020A4EFE700A0F44F /* BorderedUIView.swift in Sources */,
 				703C4F6C20294959007DE42D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
