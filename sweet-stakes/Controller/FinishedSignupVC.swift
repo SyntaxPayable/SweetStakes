@@ -1,5 +1,5 @@
 //
-//  AddLaterVC.swift
+//  FinishedSignupVC.swift
 //  sweet-stakes
 //
 //  Created by Tj on 2018-05-10.
@@ -8,17 +8,13 @@
 
 import UIKit
 
-class AddLaterVC: UIViewController {
+class FinishedSignupVC: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
     
-    @IBAction func addBtn(_ sender: Any) {
-        
-    }
-    
+
 }

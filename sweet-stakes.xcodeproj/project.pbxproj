@@ -15,9 +15,12 @@
 		703C4F7320294959007DE42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703C4F7220294959007DE42D /* Assets.xcassets */; };
 		703C4F7620294959007DE42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703C4F7420294959007DE42D /* LaunchScreen.storyboard */; };
 		703C4F812029495A007DE42D /* sweet_stakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C4F802029495A007DE42D /* sweet_stakesTests.swift */; };
+		703D9F4520A4FAC40076756C /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703D9F4420A4FAC40076756C /* SecondStoryboard.storyboard */; };
 		706FDC6020A4EFE700A0F44F /* BorderedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */; };
 		706FDC6220A4F00500A0F44F /* TransparentBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */; };
 		706FDC6620A4F1CA00A0F44F /* AddLaterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */; };
+		706FDC6820A4F2DB00A0F44F /* ContestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6720A4F2DB00A0F44F /* ContestCell.swift */; };
+		706FDC6F20A4F42200A0F44F /* FinishedSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDC6D20A4F42200A0F44F /* FinishedSignupVC.swift */; };
 		70739CD220379D1B00F7331D /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739CD120379D1B00F7331D /* SignupVC.swift */; };
 		70739CD420379EE300F7331D /* CottonCandyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70739CD320379EE300F7331D /* CottonCandyCell.swift */; };
 		7076127B203519E000C0595B /* PinkTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076127A203519E000C0595B /* PinkTextField.swift */; };
@@ -50,9 +53,12 @@
 		703C4F7C20294959007DE42D /* sweet-stakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sweet-stakesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		703C4F802029495A007DE42D /* sweet_stakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_stakesTests.swift; sourceTree = "<group>"; };
 		703C4F822029495A007DE42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703D9F4420A4FAC40076756C /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedUIView.swift; sourceTree = "<group>"; };
 		706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBorderedButton.swift; sourceTree = "<group>"; };
 		706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLaterVC.swift; sourceTree = "<group>"; };
+		706FDC6720A4F2DB00A0F44F /* ContestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestCell.swift; sourceTree = "<group>"; };
+		706FDC6D20A4F42200A0F44F /* FinishedSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedSignupVC.swift; sourceTree = "<group>"; };
 		70739CD120379D1B00F7331D /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		70739CD320379EE300F7331D /* CottonCandyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CottonCandyCell.swift; sourceTree = "<group>"; };
 		7076127A203519E000C0595B /* PinkTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkTextField.swift; sourceTree = "<group>"; };
@@ -110,7 +116,7 @@
 				703C4F8C20294964007DE42D /* View */,
 				703C4F8D20294969007DE42D /* Controller */,
 				703C4F6B20294959007DE42D /* AppDelegate.swift */,
-				703C4F6F20294959007DE42D /* Main.storyboard */,
+				703D9F4320A4F56A0076756C /* Storyboards */,
 				703C4F7220294959007DE42D /* Assets.xcassets */,
 				703C4F7420294959007DE42D /* LaunchScreen.storyboard */,
 				703C4F7720294959007DE42D /* Info.plist */,
@@ -142,6 +148,7 @@
 				70739CD320379EE300F7331D /* CottonCandyCell.swift */,
 				706FDC5F20A4EFE700A0F44F /* BorderedUIView.swift */,
 				706FDC6120A4F00500A0F44F /* TransparentBorderedButton.swift */,
+				706FDC6720A4F2DB00A0F44F /* ContestCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 				708331B02034E87B007B040B /* MainVC.swift */,
 				70739CD120379D1B00F7331D /* SignupVC.swift */,
 				706FDC6520A4F1CA00A0F44F /* AddLaterVC.swift */,
+				706FDC6D20A4F42200A0F44F /* FinishedSignupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +172,15 @@
 				7020909A20294B0F0082308E /* Lobster.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		703D9F4320A4F56A0076756C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				703C4F6F20294959007DE42D /* Main.storyboard */,
+				703D9F4420A4FAC40076756C /* SecondStoryboard.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		708331B22034E8D8007B040B /* Utilities */ = {
@@ -269,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				703C4F7620294959007DE42D /* LaunchScreen.storyboard in Resources */,
+				703D9F4520A4FAC40076756C /* SecondStoryboard.storyboard in Resources */,
 				703C4F7320294959007DE42D /* Assets.xcassets in Resources */,
 				7020909B20294B140082308E /* Lobster.otf in Resources */,
 				703C4F7120294959007DE42D /* Main.storyboard in Resources */,
@@ -289,9 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706FDC6820A4F2DB00A0F44F /* ContestCell.swift in Sources */,
 				70739CD420379EE300F7331D /* CottonCandyCell.swift in Sources */,
 				7020909F20295BA70082308E /* CustomUIButton.swift in Sources */,
 				706FDC6620A4F1CA00A0F44F /* AddLaterVC.swift in Sources */,
+				706FDC6F20A4F42200A0F44F /* FinishedSignupVC.swift in Sources */,
 				7076127B203519E000C0595B /* PinkTextField.swift in Sources */,
 				708331B12034E87B007B040B /* MainVC.swift in Sources */,
 				70739CD220379D1B00F7331D /* SignupVC.swift in Sources */,

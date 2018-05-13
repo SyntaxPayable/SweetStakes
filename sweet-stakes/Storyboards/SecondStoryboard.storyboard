@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Finished SignupVC-->
+        <scene sceneID="Tfg-3n-VwM">
+            <objects>
+                <viewController storyboardIdentifier="finishedVC" id="1Tf-QV-oPj" customClass="FinishedSignupVC" customModule="sweet_stakes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdH-Ox-xe1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gumballs" translatesAutoresizingMaskIntoConstraints="NO" id="dXy-w7-sHu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNS-XL-ZFY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUI-QR-d13">
+                                        <rect key="frame" x="15" y="301" width="345" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="XXL-xa-mcd"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="HEAD ON TO THE HOMEPAGE NOW TO SEE YOUR PERSONALIZED PAGE. ">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="16" name="AvenirNext-DemiBoldItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="0.87450980389999999" green="0.29235387730000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJB-gD-WbM">
+                                        <rect key="frame" x="15" y="366" width="345" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="QXj-te-INb"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="COOL CONTESTS AWAIT YOU. ">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="16" name="AvenirNext-DemiBoldItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="0.87450980389999999" green="0.29235387730000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxS-4x-1gY">
+                                        <rect key="frame" x="0.0" y="15" width="375" height="42"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Finished!">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="42" name="Lobster1.3"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="0.87450980389999999" green="0.29235387730000001" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="RxS-4x-1gY" secondAttribute="trailing" id="6C1-dw-Eee"/>
+                                    <constraint firstAttribute="trailing" secondItem="LJB-gD-WbM" secondAttribute="trailing" constant="15" id="J1n-Ft-Gne"/>
+                                    <constraint firstItem="LJB-gD-WbM" firstAttribute="leading" secondItem="qNS-XL-ZFY" secondAttribute="leading" constant="15" id="J2y-Oe-lOH"/>
+                                    <constraint firstItem="RxS-4x-1gY" firstAttribute="top" secondItem="qNS-XL-ZFY" secondAttribute="top" constant="15" id="MS7-3B-wCQ"/>
+                                    <constraint firstItem="RxS-4x-1gY" firstAttribute="leading" secondItem="qNS-XL-ZFY" secondAttribute="leading" id="bRh-bi-iKI"/>
+                                    <constraint firstItem="LJB-gD-WbM" firstAttribute="top" secondItem="xUI-QR-d13" secondAttribute="bottom" id="jeH-xz-Pwk"/>
+                                    <constraint firstItem="xUI-QR-d13" firstAttribute="leading" secondItem="qNS-XL-ZFY" secondAttribute="leading" constant="15" id="l9k-Qz-XcD"/>
+                                    <constraint firstItem="xUI-QR-d13" firstAttribute="centerY" secondItem="qNS-XL-ZFY" secondAttribute="centerY" id="orH-Sk-4Xn"/>
+                                    <constraint firstAttribute="trailing" secondItem="xUI-QR-d13" secondAttribute="trailing" constant="15" id="vv2-t2-W7e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dXy-w7-sHu" firstAttribute="leading" secondItem="sbR-Ha-JZ7" secondAttribute="leading" id="0R7-bS-3zM"/>
+                            <constraint firstItem="qNS-XL-ZFY" firstAttribute="leading" secondItem="sbR-Ha-JZ7" secondAttribute="leading" id="2dI-Lq-qoe"/>
+                            <constraint firstItem="dXy-w7-sHu" firstAttribute="trailing" secondItem="sbR-Ha-JZ7" secondAttribute="trailing" id="2vb-pu-CHw"/>
+                            <constraint firstItem="dXy-w7-sHu" firstAttribute="top" secondItem="bdH-Ox-xe1" secondAttribute="top" id="Ddc-yg-DXi"/>
+                            <constraint firstItem="sbR-Ha-JZ7" firstAttribute="bottom" secondItem="qNS-XL-ZFY" secondAttribute="bottom" id="Tt2-W4-BCk"/>
+                            <constraint firstItem="dXy-w7-sHu" firstAttribute="bottom" secondItem="sbR-Ha-JZ7" secondAttribute="bottom" id="Uwx-7K-z2B"/>
+                            <constraint firstItem="qNS-XL-ZFY" firstAttribute="top" secondItem="bdH-Ox-xe1" secondAttribute="top" id="ot4-bK-jfq"/>
+                            <constraint firstAttribute="trailing" secondItem="qNS-XL-ZFY" secondAttribute="trailing" id="uFg-GA-8If"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sbR-Ha-JZ7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pg-cM-EwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-177" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gumballs" width="2735" height="2448"/>
+    </resources>
+</document>

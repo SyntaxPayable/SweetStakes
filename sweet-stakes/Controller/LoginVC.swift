@@ -11,7 +11,11 @@ import UIKit
 class LoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("Hi");
+//        // Do any additional setup after loading the view, typically from a nib.
+//
+        let testVC = UIStoryboard(name: "SecondStoryboard", bundle: nil).instantiateViewController(withIdentifier: "finishedVC")
+        present(testVC, animated: true, completion: nil);
     }
 
     
